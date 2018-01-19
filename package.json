@@ -13,5 +13,6 @@
     "start": "concurrently 'yarn react-start' 'cd server && yarn start'",
     "react-build": "react-scripts build",
     "build": "concurrently 'yarn react-build' 'cd server && yarn build'"
-  }
+  },
+  "proxy": "http://localhost:3100"
 }
